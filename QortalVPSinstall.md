@@ -36,6 +36,7 @@ Easy to follow quide on setting up a VPS hosted node and installing qortal core 
 6.) Rename motd license bs so it isn't called on login
 ```
   sudo mv /etc/motd /etc/motd_old
+- This line returned mv: cannot stat '/etc/motd': No such file or directory
 ```
 
 7.) Log out of new user and log back in with new user to see updated terminal output format
